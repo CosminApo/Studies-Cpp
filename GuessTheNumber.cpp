@@ -11,7 +11,7 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int numbertoguess = rand() % 99;
+	int numbertoguess = rand() % 99; //don't put 0 + 99 since 0 is implied in this case
 	int guess = 0;
 	int numberofguesses = 8;
 
